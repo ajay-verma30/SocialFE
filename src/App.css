@@ -11,3 +11,7 @@ body{
 .card-body p{
     margin-bottom: 0px !important;
 }
+
+.form-label{
+    color: white !important;
+}

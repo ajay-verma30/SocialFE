@@ -1,17 +1,70 @@
 .login-registration-form{
     margin: auto !important;
-    width: 20% !important;
+    width: 70% !important;
     padding: 20px;
-    border: 1px solid rgb(48, 48, 48);
-    border-radius: 20px;
-    box-shadow: 2px 4px 10px;
+    margin-top: 50% !important;
+    transform: translate(0%, -50%);
 }
 
 .loginRegisterBTN{
     cursor: pointer;
-    color: #4d4c4c;
+    color: rgb(174, 174, 174);
+    margin-top: 20px;
 }
 
 .loginRegisterBTN:hover{
-    color: black;
+    color: rgb(75, 75, 75);
+}
+
+.login-register-background{
+    background: url('../../../public/Images/loginregisterbackground.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
+    mask-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    -webkit-mask-size: cover;
+    mask-size: cover;
+}
+
+.form-containers{
+    height: 100vh;
+}
+
+.form-container{
+    background-color: black !important
+}
+
+.login-btn{
+    background-color: rgb(179, 52, 252) !important;
+    border: none !important;
+    width: 100% !important;
+}
+
+
+.login-btn:hover{
+    background-color: rgb(162, 6, 252) !important;
+    border: none !important;
+    width: 100% !important;
+}
+
+.highlight{
+    color: rgb(135, 0, 213);
+}
+
+form div:nth-child(2){
+    margin-top: 20px !important;
+}
+
+form div:nth-child(3){
+    margin-top: 20px !important;
+}
+
+.login-registration-form h3{
+    color: white !important;
+    font-weight: bold;
+}
+
+.login-registration-form h5{
+    color: antiquewhite;
 }

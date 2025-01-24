@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Common.css'
-import {Container, Form, Button} from 'react-bootstrap'
+import {Container, Form, Button, Row, Col} from 'react-bootstrap'
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
@@ -50,7 +50,12 @@ function Registration() {
     
   return (
     <>
-      <Container className='login-registration-form'>
+      <Row className='form-container'>
+        <Col xs={12} md={5} className="form-container">
+        <Container className='login-registration-form'>
+        <h3 className='text-center'>Socializer</h3>
+
+<h5 className='text-center'>Register for new account</h5>
             <Form onSubmit={handleRegistration}>
                 <Form.Group>
                     <Form.Label>Username</Form.Label>
@@ -65,10 +70,15 @@ function Registration() {
                     <Form.Control type='password' placeholder='CONFIRM PASSWORD'  value={confPassword} onChange={(e)=>setConfPassword(e.target.value)}></Form.Control>
                 </Form.Group>
                 <br></br>
-                <Button type='submit'>Register</Button>
-                <p onClick={handleLoginPage} className='loginRegisterBTN'>Existing User? Login</p>
+                <Button type='submit' className='login-btn'>Register</Button>
+                <p onClick={handleLoginPage} className='loginRegisterBTN text-center'>Existing User? Login</p>
             </Form>
         </Container>
+        </Col>
+        <Col xs={12} md={7} className='login-register-background'>
+                        
+                    </Col>
+      </Row>
         </>
   )
 }
