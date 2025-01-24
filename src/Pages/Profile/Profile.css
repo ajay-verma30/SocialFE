@@ -1,0 +1,49 @@
+.banner{
+    height: 200px;
+    background: url('../../../public/Images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.profile-image-card{
+    border-radius: 50% !important;
+    width: 140px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: 3px solid white !important;
+    margin-top: -80px !important;
+    box-shadow: none;
+}
+.profile-image{
+    border: 3px solid white !important;
+    width: 123%;
+    height: 150px !important;
+    border-radius: 50% !important;
+    object-fit: cover; 
+    cursor: pointer;
+    box-shadow: 2px 2px 10px;
+}
+
+.profile-detail{
+    margin-top: 20px !important;
+    border-radius: 20px;
+}
+
+.profile-detail h4{
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.card-body{
+    height: 400px !important;
+}
+
+.logoutBtn{
+    width: 200px !important;
+    margin: auto;
+}

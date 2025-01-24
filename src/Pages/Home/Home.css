@@ -1,0 +1,18 @@
+.posts-container{
+    margin-top: 1% !important;
+    width: 500px !important;
+    margin: auto;
+}
+
+.posts-container form button{
+    margin-left: 12px;
+    background-color: rgb(0, 136, 255);
+}
+
+.image-add-btn{
+    cursor: pointer;
+}
+
+.image-add-btn:hover{
+    color: grey !important;
+}

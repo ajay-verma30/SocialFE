@@ -1,0 +1,17 @@
+.login-registration-form{
+    margin: auto !important;
+    width: 20% !important;
+    padding: 20px;
+    border: 1px solid rgb(48, 48, 48);
+    border-radius: 20px;
+    box-shadow: 2px 4px 10px;
+}
+
+.loginRegisterBTN{
+    cursor: pointer;
+    color: #4d4c4c;
+}
+
+.loginRegisterBTN:hover{
+    color: black;
+}

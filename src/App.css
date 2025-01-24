@@ -1,0 +1,13 @@
+body{
+    overflow-x: hidden !important;
+}
+.card-footer{
+    margin-top: 56px;
+}
+.card, .card-body{
+    background-color: black !important;
+}
+
+.card-body p{
+    margin-bottom: 0px !important;
+}
